@@ -1,61 +1,61 @@
 ![](https://img.shields.io/badge/Microverse-blue)
 
-# Webpack Project
+# To Do List Project
 
-> In this project I built a simple yet powerful webpack boilerplate, which will be used as a starting point for other projects.
+This To Do List project in microverse course only for educational purposes.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript
+- HTML
+- CSS
+- WebPack
+
+## Live Demo
+
+To run this project in your local environment, you can use this [link](https://nimplay.github.io/do-list/)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Prerequisites
 
-Modern web browser with Javascript enabled
+git terminal VisualStudio code
 
-### Setup
+## Install
 
-### Install
+Clone the [repo](https://github.com/nimplay/do-list.git)
 
-    git clone https://github.com/indigodavid/webpack-first-project.git
+## Usage
 
-### Usage
+This project is for educational purposes only.
 
-### Run tests
+## Author
 
-### Deployment
+### Nimrod Acosta 
+ - Github: [@nimplay](https://github.com/nimplay) 
+ - Twitter: [@NimrodAcosta](https://twitter.com/NimrodAcosta)
+ - LinkedIn: [Nimrod Acosta](https://www.linkedin.com/in/nimrod-acosta-734330169/)
 
+## Contribution
 
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-## Authors
+Fork the Project 1.Create your New Feature Branch (git checkout -b name/your/branch). 2.Commit your Changes Dont forget to put you name (git commit -m 'Add some Amazing suggestion'). 3.Push to the Branch (git push origin name/your/branch). 4.Open a Pull Request.
 
-👤 **David Vera**
-
-- GitHub: [@indigodavid](https://github.com/indigodavid)
-- Twitter: [@indigo1987](https://twitter.com/indigo1987)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/david-vera-castillo-001b5756/)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
+## Support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Microverse
-- My supportive family 😊
+- Microverse Github
+- David Vera
 
-## 📝 License
+  GitHub: @indigodavid
+  Twitter: @indigo1987
 
-This project is [MIT](./MIT.md) licensed.
+## License
+
+This project is [licenced](./LICENSE) 
