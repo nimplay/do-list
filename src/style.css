@@ -1,7 +1,109 @@
 body {
-  background-color: bisque;
+  width: 100vw;
+  height: 100vh;
+  background-color: orchid;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.hello {
-  color: red;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: ghostwhite;
+}
+
+.first-bar {
+  display: flex;
+  height: 4rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+#first-bar-p {
+  color: #817d7d;
+  margin-left: 1rem;
+  font-size: 1.1em;
+}
+
+#first-bar-btn {
+  margin-right: 1rem;
+  border: none;
+  background-color: ghostwhite;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url('./images/icons8-circular-arrows-48.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.add-btn {
+  margin-right: 1rem;
+  border: none;
+  background-color: ghostwhite;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url('./images/level-down.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.item-list {
+  list-style: none;
+  order: 1;
+}
+
+.item {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imput-text {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  margin-left: 1rem;
+  font-size: 1.1em;
+  font-style: italic;
+  color: rgb(29, 29, 29);
+}
+
+.line {
+  margin-left: 1rem;
+}
+
+.my-checkbox {
+  transform: scale(2);
+  margin-right: 11px;
+}
+
+.delete-btn {
+  margin-right: 1rem;
+  border: none;
+  background-color: ghostwhite;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url('./images/icons8-menu-vertical-60.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.clear-btn {
+  order: 2;
+  width: 100%;
+  height: 4rem;
+  background-color: #dadada;
+  border: none;
+  color: #888;
+  font-size: 1.1em;
+  font-stretch: expanded;
 }

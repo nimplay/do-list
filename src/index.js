@@ -1,21 +1,29 @@
-import _ from 'lodash';
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all.js';
+import barFirst from './modules/firstbar.js';
+import secondBar from './modules/secondbar.js';
+import clearButton from './modules/clearButton.js';
+import itemLi from './modules/item.js';
 
-function component() {
-  const element = document.createElement('div');
-  const i = document.createElement('i');
+barFirst();
+secondBar();
+clearButton();
 
-  // Add icon using font awesome
-  i.classList.add('fa-solid');
-  i.classList.add('fa-laptop');
+const item = [
+  {
+    description: 'Wash the dishes',
+    completed: false,
+    index: 0,
+  },
+  {
+    description: 'complete to do list project',
+    completed: false,
+    index: 1,
+  },
+];
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-  element.appendChild(i);
-  return element;
+for (let i = 0; i < item.length; i += 1) {
+  const task = item[i].description;
+  itemLi(task);
 }
-
-document.body.appendChild(component());
