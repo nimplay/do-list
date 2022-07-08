@@ -4,6 +4,7 @@ const barFirst = () => {
   const firstP = document.createElement('p');
   const firstBtn = document.createElement('button');
   firstDiv.className = 'first-bar';
+  firstBtn.className = 'first-bar-btn';
   firstP.setAttribute('id', 'first-bar-p');
   firstBtn.setAttribute('id', 'first-bar-btn');
   mainContrainer.appendChild(firstDiv);

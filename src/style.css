@@ -13,7 +13,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 80%;
-  background-color: ghostwhite;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .first-bar {
@@ -22,33 +23,41 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid gray;
 }
 
 #first-bar-p {
   color: #817d7d;
-  margin-left: 1rem;
-  font-size: 1.1em;
+  margin-left: 1.6rem;
+  font-size: 2em;
 }
 
-#first-bar-btn {
+.first-bar-btn {
   margin-right: 1rem;
   border: none;
-  background-color: ghostwhite;
-  width: 1.4rem;
-  height: 1.4rem;
-  background-image: url('./images/icons8-circular-arrows-48.png');
+  background-color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url('./images/looping-arrows.png');
   background-repeat: no-repeat;
   background-size: contain;
+  transform: rotate(180deg);
+  transition-duration: 0.2s;
+}
+
+.first-bar-btn.active {
+  width: 2.55rem;
+  height: 2.55rem;
+  transform: rotate(-180deg);
+  transition-duration: 0.2s;
 }
 
 .add-btn {
   margin-right: 1rem;
   border: none;
-  background-color: ghostwhite;
-  width: 1.4rem;
-  height: 1.4rem;
-  background-image: url('./images/level-down.png');
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  background-image: url('./images/downward-rotation.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -64,17 +73,28 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .imput-text {
   width: 100%;
-  height: 100%;
+  height: 70%;
   background: none;
-  border: none;
   margin-left: 1rem;
   font-size: 1.1em;
   font-style: italic;
   color: rgb(29, 29, 29);
+  border-radius: 50px;
+  border: 2px solid black;
+  padding-left: 14px;
+}
+
+.error {
+  height: 0.5rem;
+  width: 60%;
+  font-size: medium;
+  color: rgb(224, 4, 4);
+  margin-left: 2rem;
 }
 
 .line {
@@ -89,10 +109,10 @@ body {
 .delete-btn {
   margin-right: 1rem;
   border: none;
-  background-color: ghostwhite;
-  width: 1.4rem;
-  height: 1.4rem;
-  background-image: url('./images/icons8-menu-vertical-60.png');
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  background-image: url('./images/basket.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -106,4 +126,6 @@ body {
   color: #888;
   font-size: 1.1em;
   font-stretch: expanded;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
