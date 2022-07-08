@@ -9,10 +9,10 @@ import displayData from './modules/displaylist.js';
 import clearCompleted from './modules/deleteComplete.js';
 import deleteAll from './modules/deleteAll.js';
 
+getData();
 barFirst();
 secondBar();
 clearButton();
-getData();
 clearCompleted();
 deleteAll();
 displayData();

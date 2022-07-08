@@ -1,7 +1,6 @@
 const deleteCompleted = () => {
   const clearButton = document.querySelector('.clear-btn');
-  clearButton.addEventListener('click', (e) => {
-    e.preventDefault();
+  clearButton.addEventListener('click', () => {
     const tasks = document.querySelectorAll('.finish');
     tasks.forEach((task) => {
       const removeButton = task.querySelector('.delete-btn');

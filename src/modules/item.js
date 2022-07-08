@@ -43,17 +43,16 @@ const itemLi = (task) => {
       itemli.classList.remove('finish');
     }
   };
-
   styleContent();
-
-  textContent.addEventListener('change', () => {
-    editData(task.index, textContent.value, checkbox.checked);
-    div.style.display = 'inherit';
-  });
 
   checkbox.addEventListener('click', () => {
     editData(task.index, textContent.value, (task.completed = checkbox.checked));
     styleContent();
+  });
+
+  textContent.addEventListener('change', () => {
+    editData(task.index, textContent.value, checkbox.checked);
+    div.style.display = 'inherit';
   });
 
   btn.addEventListener('click', () => {
