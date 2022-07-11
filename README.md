@@ -13,7 +13,7 @@ This To Do List project in microverse course only for educational purposes.
 
 ## Live Demo
 
-To run this project in your local environment, you can use this [link](https://nimplay.github.io/do-list/)
+To run this project in your local environment, you can use this [link](https://nimplay.github.io/do-list/dist/)
 
 ## Getting Started
 
